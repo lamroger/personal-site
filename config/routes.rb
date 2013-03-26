@@ -1,7 +1,8 @@
 Website::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/about"
-  get "static_pages/blog"
+  root to: 'static_pages#home'
+
+  match '/about',   to: 'static_pages#about'
+  match '/blog', to: 'static_pages#blog'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
