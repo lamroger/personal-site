@@ -25,3 +25,19 @@ textarea {
 .center h1 {
   margin-bottom: 10px;
 }
+
+/* header */
+
+h1, h2, h3 { font-weight: normal; margin-bottom: 0.8em; color: #222; }
+
+h1#headline { font-size: 7em; margin-bottom: 0; text-align: center; }
+h2#punchline { font-size: 2.6em; text-align: center; margin-top: -0.5em;}
+
+/* containers */
+
+.container { width: 620px; margin: 0 auto; font-size: 1em; font-weight: 400; }
+.maincontainer { width: 690px; margin: 0 auto; font-size: 1em; font-weight: 400; }
+
+/* column */
+
+.column { width: 215px; float: left; margin-right: 15px; }
